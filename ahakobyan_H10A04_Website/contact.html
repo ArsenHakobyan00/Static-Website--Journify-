@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="journify.com is for everyone who is interested in journaling and looks for a powerful online tool to write their thoughts everywhere they go. Users can create an account and use the online journaling web app. They will also be able to share their journals with other users by posting them in the “Journify Blog” section. For true fans, there is a line of products they can buy in order to make their traditional journaling (or as we call it “Offline Journaling”) an easier and funnier experience.">
+    <meta name="keywords" content="Journify,journify,JOURNIFY,Journfy,jurnify,journaling,notebooks,blog,diary, diaries, journal, online diary, free diary, electronic diary, online journal, free journal, free online diary, free online journal, private diary, secret diary, private journal, personal journal, write, notepad, private blog, private online">
+    <meta name="author" content="Arsen Hakobyan">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="./Styles/site.css">
+    <title>Journify | Contact Us</title>
+</head>
+<body>
+    <!-- Top -->
+    <header>
+        <a href="index.html">
+            <img class="top-logo" src="./Images/journify-inline-logo.png" alt="Journify logo">
+        </a>
+        <div class="btn-container hide">
+            <ul>
+                <li class="contact-btn"><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div> 
+    </header>
+    <!-- Navigation bar -->
+    <nav>
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li class="hide"><a href="team.html">Team</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+            <h1 class="form-title">Contact Us</h1>
+            <form method="post" class="form">
+                <label for="legend" class="red notice">* - required</label>
+                <fieldset class="contact-info"><legend>Contact Information</legend>
+                    <div class="row">
+                        <label class="labelCol" for="firstname">First Name:</label>
+                        <input type="text" name="FirstName" id="firstname" class="input" required><span class="red">*</span>
+                    </div>
+                    <div class="row">
+                        <label class="labelCol" for="lastname">Last Name:</label>
+                        <input type="text" name="LastName" id="lastname" class="input" required><span class="red">*</span>
+                    </div>
+                    <div class="row">
+                        <label for="email" class="labelCol">Email:</label>
+                        <input type="email" name="mail" id="email" class="input" required><span class="red">*</span>
+                    </div>
+                    <div class="row">
+                        <label for="cel" class="labelCol">Telephone # (optional):</label>
+                        <input type="tel" name="cel" id="cel" class="input">
+                    </div>
+                </fieldset>
+                <fieldset><legend>Contact Method<span class="red">*</span></legend>
+                    <label for="contactOptn" class="labelRadio">How would you like to be contacted?</label><br>
+                        <input type="radio" name="choice" id="contactOptn" required checked> Email<br>
+                        <input type="radio" name="choice" id="contactOptn" required> Telephone<br>
+                    
+                </fieldset>
+                
+                <fieldset><legend>You need to know information about ... &nbsp; </legend>
+                        <input type="checkbox" name="information" id="check" required> The company<br>
+                        <input type="checkbox" name="information" id="check"> Future products<br>
+                        <input type="checkbox" name="information" id="check"> Using the website<br>
+                        <input type="checkbox" name="information" id="check"> Privacy<br>
+                        <input type="checkbox" name="information" id="check"> Security<br>
+                </fieldset>
+
+                <fieldset><legend>Questions?</legend>
+                    <div class="row">
+                        <label for="text" class="labelCol">Enter your questions:</label>
+                        <textarea name="txtarea" id="text" cols="40" rows="10" placeholder="Type youre questions here"></textarea>
+                    </div>
+                </fieldset>
+                
+                <fieldset><legend>Who told you about us?</legend>
+                    <select size="1" name="reference" id="ref">
+                        <option value="">Please select what applies to you</option>
+                        <optgroup label="Internet">
+                            <option>The Journify web site</option>
+                            <option>Online advertisement</option>
+                        </optgroup>
+                        <optgroup label="Non-internet">
+                            <option>Refered by a person who works at Journify</option>
+                            <option>Refered by a friend</option>
+                            <option>Mailing campaign</option>
+                        </optgroup>
+                    </select>
+                </fieldset>
+                <input type="submit" value="Send" class="bold"> <input type="submit" value="Cancel" class="bold" onclick="window.location.href='contact.html'">
+            </form>
+
+            <div class="link-to">Here you can find our <a href="hours.html" class="orange-bold">hours of operation</a>.</div>
+        <!-- Placeholder -->
+        <div>&nbsp;</div>
+    </div>
+    
+    <!-- Footer -->
+    <footer>
+            <div class="bottom-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </div>
+            
+            <div>&copy; 2019 <span class="orange-bold">Journify Inc.</span> All rights reserved</div>
+            <div>Made by <span class="orange-bold">Arsen Hakobyan</span><br></div>
+    </footer>
+</body>
+</html>
