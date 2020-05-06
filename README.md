@@ -1,2 +1,2 @@
 # Static website called Journify
-Design and implementation of static website
+Web Programming 1 Assignment ~ Design and implementation of static website
